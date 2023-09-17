@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                git branch: 'master', url: 'https://github.com/shubhampanchall/petadoption.git'
+                git branch: 'master', url: 'https://github.com/shubhampanchall/boot.git'
                 sh './mvnw compile'
             }
         }
